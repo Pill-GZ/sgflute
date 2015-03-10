@@ -626,7 +626,7 @@ void EpiModel::initPopulation(void) {
 				break;
 			}
 		}
-		for(int i=0;i< 2*266; i = i + 2) 
+		for(int i=0;i< 608; i = i + 2) 
 			if(t.id+1==zone_subzone[i])
 				t.nLastCommunity=zone_subzone[i+1];
 		
